@@ -7,9 +7,9 @@ def antigravity_effect(text):
 demo = gr.Interface(
     fn=antigravity_effect,
     inputs=gr.Textbox(placeholder="중력을 거스를 텍스트를 입력하세요..."),
-    outputs=gr.Textbox(label="안티그래비티 결과"),
-    title="Antigravity Sample App",
-    description="재미나이 CLI로 만든 첫 번째 안티그래비티 Gradio 앱입니다."
+    outputs=gr.Textbox(label="우주 무중력 상태 (GitHub에서 다운로드 됨!)"),
+    title="Antigravity Sample App v2",
+    description="Antigravity IDE 연동 워크플로우 테스트입니다."
 )
 
 if __name__ == "__main__":
